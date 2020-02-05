@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingTop="20dp">
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:id="@+id/thHud">
+
+        <ImageView
+            android:id="@+id/teacherAvatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/avatar0" />
+
+        <TextView
+            android:id="@+id/welcomeTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@id/teacherAvatar"
+            android:text="@string/welcomeTeacher"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/thHud"
+        android:layout_marginTop="60dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/courseRes"
+            android:layout_width="240dp"
+            android:layout_height="150dp"
+            android:text="@string/ThemeRes"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/temptextbg"/>
+
+        <Button
+            android:id="@+id/MyClass"
+            android:layout_width="240dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/courseRes"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/MyClass"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/temptextbg2"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:src="@drawable/deco6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-120dp"
+        android:layout_marginBottom="10dp"/>
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="111dp"
+        android:src="@drawable/rocketneko"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-35dp"
+        android:layout_marginEnd="10dp"/>
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="152dp"
+        android:src="@drawable/neko2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="184dp"
+        android:src="@drawable/alians"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

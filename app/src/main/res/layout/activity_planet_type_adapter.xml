@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="155dp"
+        android:layout_height="146dp">
+
+        <ImageView
+            android:id="@+id/bg4Pic"
+            android:layout_width="155dp"
+            android:layout_height="146dp"
+            android:background="@drawable/background4pic"
+            android:scaleType="fitCenter" />
+
+        <com.aresix.tagplanet.Util.RoundRectImageView
+            android:id="@+id/Pic"
+            android:layout_width="135dp"
+            android:layout_height="121dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="9dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/test"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

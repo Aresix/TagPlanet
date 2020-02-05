@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aresix.tagplanet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MyActivity.ResRecommendActivity"></activity>
+        <activity android:name=".MyActivity.KidTakePhotoActivity" />
+        <activity android:name=".MyActivity.KidListActivity" />
+        <activity android:name=".MyActivity.ClassMenuActivity" />
+        <activity android:name=".MyActivity.TeacherMainActivity" />
+        <activity android:name=".MyActivity.KidMainActivity" />
+        <activity android:name=".MyActivity.MainLoginInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MyActivity.TagResActivity" /> <!-- <activity android:name=".RoundRectImageView"></activity> -->
+        <!-- <activity android:name=".PlanetTypeAdapter" /> -->
+        <activity android:name=".MyActivity.PlanetCategoryActivity" /> <!-- <activity android:name=".PlanetAdapter" /> -->
+        <activity android:name=".MyActivity.TagActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.aresix.tagplanet.MyActivity.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/camera" />
+        </provider>
+    </application>
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>

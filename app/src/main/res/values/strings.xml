@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TagPlanet</string>
+    <string name="welcome">欢迎来到kicher</string>
+    <string name="kid_login_tip">我是宝宝</string>
+    <string name="teacher_login_tip">我是老师</string>
+    <string name="uploadPic">上传照片</string>
+    <string name="takePhoto">拍照探索</string>
+    <string name="tagPlanet">标签星球</string>
+    <string name="welcomeTeacher">XX老师！您好！</string>
+    <string name="ThemeRes">主题课程资源</string>
+    <string name="MyClass">我的班级</string>
+    <string name="ClassName">中班2班</string>
+    <string name="KidPlanet">宝贝星球</string>
+    <string name="Res4Kid">宝贝资源推荐</string>
+    <string name="KidSharePic">宝贝照片分享</string>
+    <string name="Hint4Search">请输入关键字</string>
+    <string name="Src4Rec01">猫</string>
+    <string name="Src4Rec02">树</string>
+    <string name="Src4Rec03">家具</string>
+    <string name="Src4Rec04">叶子</string>
+    <string name="Src4Rec05">苹果</string>
+    <string name="Src4Rec06">汽车</string>
+
+</resources>
