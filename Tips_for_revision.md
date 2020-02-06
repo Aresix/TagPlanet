@@ -47,7 +47,7 @@ public class Classroom {
 
 After Change：
 
-```
+```Java
 public class Classroom {
     private int class_id;
     private String class_name;
@@ -85,7 +85,7 @@ In ```PlanetCategoryActivity.java```：
 
 try to fix the code into following style：
 
-```
+```Java
 const static int TEST = 1;
 private static List<Image> images = Null;
 
@@ -118,7 +118,7 @@ public void initData()
 
 for reference：
 
-```
+```Java
 public static Bitmap getBitmapFromUrl(final String url)
 {
     URL myFileUrl = null;
