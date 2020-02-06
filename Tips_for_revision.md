@@ -1,4 +1,4 @@
-### **Tips for revision：Disign not only a framework**
+### **Tips for revision：Design not only a framework**
 
 #### **1、Change Entity：Remove ```List``` object from entity**
 
@@ -73,7 +73,7 @@ public class Classroom {
 
 **Tips：such changes may lead to some errors in other files, try to fix them！**
 
-**Questions：why does class ```Image``` in ```Image.java``` have contribution ```String image_url```? **
+**Questions：why does class ```Image``` in ```Image.java``` have contribution ```String image_url```?**
 
 #### **2、Prepare to connect to the back end（后端）：Write some useful annotation**
 
